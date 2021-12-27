@@ -1,0 +1,8 @@
+--Async/Non-Blocking//Faz diversas tarefas uma por vez sem aguardar que um processo fique pronto
+        *Handle Requests --> Gerenciamento das tarefas
+        *Single Thread--> Analisa uma requisição de tarefa por vez
+        *Event Loop--> Faz todo esse ciclo sem parar 
+
+
+--Module System
+    *os.plataform()-->Verifica a plataforma que está sendo utilizada
