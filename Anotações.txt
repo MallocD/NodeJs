@@ -6,3 +6,19 @@
 
 --Module System
     *os.plataform()-->Verifica a plataforma que está sendo utilizada
+
+--Importações de módulos
+ const os = require('os')
+
+ node "nome do arquivo.js" => Comando para executar arquivos no terminal
+
+ console.clear( )=> Limpa o console
+ console.table()=> Cria uma tabela para ser mostrada no console
+
+ setTimeout(()=>{//Arrow function Utilizado para mostrar um comando somente após o tempo setado
+
+ })
+
+ setInterval(()=>{//Arrow function Utilizado para repetição, repetira o mesmo código entre os intervalos de tempo setado
+
+ })
