@@ -1,0 +1,3 @@
+Boa noite como está?A seguir será mostrado algumas informações sobre memória de seu computador :============================================================================={"free":"9057-MB","total":"16315-MB","usage":"55%"}
+{"free":"9052-MB","total":"16315-MB","usage":"55%"}
+{"free":"9046-MB","total":"16315-MB","usage":"55%"}

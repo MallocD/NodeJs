@@ -22,3 +22,16 @@
  setInterval(()=>{//Arrow function Utilizado para repetição, repetira o mesmo código entre os intervalos de tempo setado
 
  })
+ const sayHi = new  events.EventEmitter ()//Cria uma váriavel constante criando uma nova classe dos events que é o EventEmitter
+ sayHi.on('hi', () => console.log("Devo dizer oi"))//Passa uma Arrow function dizendo que toda vez
+  o -->sayHi.emit chamar hi ele deve dizer oi(chamada)
+
+ Módulos :
+ Events do Nodejs
+ OS ->Informações do sistema
+ fs-> File sistems
+ exports-> Exportar arquivos
+ path{
+     path.join()---> Irá saber sozinho qual a máquina e como criar o melhor caminho até o diretório
+     __dirname: Váriavel global
+ }
