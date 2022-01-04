@@ -20,6 +20,9 @@ http.createServer((req, res) =>{//parâmetros de requisição e resposta http
   
     const {name,url,del}= URL.parse(req.url,true).query//Extrair da requisição os valores do query um valor para name e url
 
+    res.writeHead(200,{
+        'Access-Control-Allow-Origin': '*'
+    })
     //all resources
     if(!name || !url)
         return res.end(JSON.stringify(data))
