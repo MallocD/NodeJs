@@ -8,3 +8,6 @@ http.createServer((req, res) =>{//Parâmetros de requisição e resposta http
         return res.end('<h1>Contato</h1>')    
 
 }).listen(5000,()=>console.log('Server is running'))//Número da porta http, e pedindo para que seja mostrado no console 
+
+  // res.end(JSON.stringify(data))
+    // console.log(URL.parse(req.url,true).query)
