@@ -21,4 +21,3 @@ console.table(stats)//Mostra no terminal em forma de tabela, uma maneira mais be
 log(`${JSON.stringify(stats)}\n`)//Formatar, convertendo o objeto js para JSON
 
 },4000)
-
